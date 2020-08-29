@@ -1,7 +1,11 @@
+body{
+    background-color: rgb(223, 219, 219);
+    color: black;
+}
 *{
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(255, 255, 255);
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
@@ -39,12 +43,15 @@ nav ul div.items a{
     padding: 0 20px;
 }
 
+nav ul div.items a:hover{
+    color:orange;
+}
 
 nav ul .search-icon{
     height: 30px;
     width: 240px;
     display: flex;
-    background:#868686;
+    background:#000000;
     border-radius: 5px;
 }
 
@@ -54,24 +61,23 @@ nav ul .search-icon input{
     border: none;
     outline: none;
     padding: 10px;
-    color: #000;
+    background: rgb(231, 231, 231);
     font-size: 16px;
     border-radius: 5px 0 0 5px;
 }
 
-nav ul .search-icon .icon{
+/* nav ul .search-icon .icon{
     height: 100%;
     width: 40px;
     line-height: 40px;
     text-align: center;
+    border: 1px solid #cccccc;
+    background: rgb(104, 102, 102);
     border-radius: 0 5px 5px 0;
 
 }
 nav ul .search-icon .icon span{
-    color: #222222;
+    color: #000000;
     font-size: 18px;
-}
+} */
 
-nav ul .search-icon .icon:hover{
-    
-}
