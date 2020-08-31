@@ -1,83 +1,86 @@
-body{
-    background-color: rgb(223, 219, 219);
-    color: black;
-}
-*{
+* {
     margin: 0;
     padding: 0;
-    color: rgb(255, 255, 255);
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
 }
 
-nav {
-    background:#303030;
-    padding: 10px 40px 10px 70px;
-    border-left: none;
-    border-right: none;
+
+body{
+    background-color: #eee;
+    
 }
 
-nav ul {
-    display:flex;
-    list-style: none;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-nav ul li.logo {
-    flex: 1;
-    font-size: 25px;
+h1 {
     color: orange;
-    font-weight: 600;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3%;
+    margin-left: 11%;
+    margin-bottom: 2%;
 }
 
-nav ul div.items{
-    padding: 25px;
-    display: inline-flex;
+#header {
+    background-color: #C1C1C1;
+    height: 100px;
+    width: 100%;
 }
 
-nav ul div.items a{
-    text-decoration: none;
-    font-size:15px;
+a {
+    position: relative;
+    display: inline-block;
+    height: 100px;
     padding: 0 20px;
+    left: 20;
+    top: 22;
 }
 
-nav ul div.items a:hover{
-    color:orange;
+img {
+    height: 45;
+    width: 45;
 }
-
-nav ul .search-icon{
-    height: 30px;
-    width: 240px;
-    display: flex;
-    background:#000000;
-    border-radius: 5px;
+.search-icon {
+    position: relative;
+    display: inline;
+    height: 20;
+    width: 20;
+    left: 34px;
+    bottom: 17px;
+    background: white;
+    padding: 1px;
 }
-
-nav ul .search-icon input{
-    height: 100%;
-    width: 200px;
-    border: none;
-    outline: none;
+#text {
     padding: 10px;
-    background: rgb(231, 231, 231);
-    font-size: 16px;
-    border-radius: 5px 0 0 5px;
+    width: 44%; 
+    margin-bottom: 10px; 
+    position: float; 
+    top: 3.5%; 
+    left: 32%; 
+    height: 30px;
+}
+.image{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 25px;
+}
+.search-container {
+    position: absolute;
+    display: inline-block;
+    padding: 0 2px;
+    left: 80%;
+    bottom: 96%;
 }
 
-/* nav ul .search-icon .icon{
-    height: 100%;
-    width: 40px;
-    line-height: 40px;
-    text-align: center;
-    border: 1px solid #cccccc;
-    background: rgb(104, 102, 102);
-    border-radius: 0 5px 5px 0;
+.items a{
+    left: 10%;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
 
 }
-nav ul .search-icon .icon span{
-    color: #000000;
-    font-size: 18px;
-} */
-
+footer {
+    margin-top: 25%;
+    background-color: #C1C1C1;
+    height: 100px;
+    width: 100%;
+  }

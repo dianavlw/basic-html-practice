@@ -4,50 +4,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
-    <header style="background-color: #C1C1C1;">
-      <section>
-        <a href="#"><img src="./left.png" alt="left" style="width: 50px;"/></a>
-        <a href="#"
-          ><img src="./right.png" alt="right" style="width: 50px;"
-        /></a>
-        <a href="#"
-          ><img
-            src="./cancel.png"
-            alt="cancel"
-            style="width: 30px; margin-bottom: 6px;"
-        /></a>
-        <a href="#"><img src="./house.png" alt="home" style="width: 50px;"/></a>
-      </section>
-    </header>
+    <header id="header"> 
+        <a href="#left"><img src="img/left.png" alt="left"></a>
+        <a href="#right"><img src="img/right.png" alt="right"></a>
+        <a href="#cancel"><img src="img/cancel.png" alt="cancel"></a>
+        <a href="#house"><img src="img/house.png" alt="home"></a>
+        <a href="#search"><img src="img/search (1).png" class="search-icon" alt="Submit"></a>
+    
+        <input type="text" id="text">
 
-    <input
-      type="text"
-      style="width: 44%;
-    margin-bottom: 10px;
-    position: absolute;
-    top: 3%;
-    left: 26%;
-    height: 30px;"
-    />
-    <div
-      style="position: absolute;
-    top: 4%;
-    left: 87%;
-    border-radius: 10px;
-    height: 22px;"
-    >
-      <input
-        type="image"
-        src="./searchIcon.png"
-        alt="Search"
-        style="width: 11px;
-        position: absolute;
-        top: 5px;
-        left: 6px;"
-      />
-      <input type="search" />
-    </div>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+  </div>
+</header>
+<nav>
+  <ul>
+  
+      <div class="items">
+        <h1>Galvanize</h1>
+        <li><a href="#">Zubair.desai@galvanize.com</a></li>
+        <li><a href="#">Elie@galvanize.com</a></li>
+        <li><a href="#">Matt@galvanize.com</a></li>
+      </div>
+
+
+
+
+<br>
+<footer>
+</footer>
   </body>
 </html>
